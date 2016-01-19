@@ -51,7 +51,7 @@ class MultistepThreeForm extends MultistepFormBase {
         'class' => array('button'),
       ),
       '#weight' => 0,
-      '#url' => Url::fromRoute('demo.multistep_two'),
+      '#url' => Url::fromRoute('multistep_two'),
     );
 
     return $form;
@@ -66,7 +66,7 @@ class MultistepThreeForm extends MultistepFormBase {
 
       // Save the data
       parent::saveData();
-      $form_state->setRedirect('demo.multistep_one');
+      $form_state->setRedirect('multistep_one');
     }
 
 }

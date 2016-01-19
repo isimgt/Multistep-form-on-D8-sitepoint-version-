@@ -1,0 +1,5 @@
+multistep_one:
+  title: Examples of multistep form
+  parent: system.admin_structure
+  description: 'Examples of multistep form based on routing'
+  route_name: multistep_one

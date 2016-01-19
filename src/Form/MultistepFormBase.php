@@ -95,7 +95,6 @@ abstract class MultistepFormBase extends FormBase {
    */
   protected function saveData() {
     // Logic for saving data goes here...
-    $this->deleteStore();
     drupal_set_message($this->t('The form has been saved.'));
 
   }

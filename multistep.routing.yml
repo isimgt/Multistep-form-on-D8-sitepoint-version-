@@ -1,18 +1,18 @@
-demo.multistep_one:
+multistep_one:
   path: '/multistep-one'
   defaults:
     _form: '\Drupal\multistep\Form\MultistepOneForm'
     _title: 'Multistep page 1'
   requirements:
     _permission: 'access content'
-demo.multistep_two:
+multistep_two:
   path: '/multistep-two'
   defaults:
     _form: '\Drupal\multistep\Form\MultistepTwoForm'
     _title: 'Multistep page 2'
   requirements:
     _permission: 'access content'
-demo.multistep_three:
+multistep_three:
   path: '/multistep-three'
   defaults:
     _form: '\Drupal\multistep\Form\MultistepThreeForm'

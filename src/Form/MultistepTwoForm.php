@@ -51,7 +51,7 @@ class MultistepTwoForm extends MultistepFormBase {
         'class' => array('button'),
       ),
       '#weight' => 0,
-      '#url' => Url::fromRoute('demo.multistep_one'),
+      '#url' => Url::fromRoute('multistep_one'),
     );
     $form['actions']['submit']['#value'] = $this->t('Next');
     return $form;
@@ -64,6 +64,6 @@ class MultistepTwoForm extends MultistepFormBase {
     $this->store->set('age', $form_state->getValue('age'));
     $this->store->set('location', $form_state->getValue('location'));
 
-    $form_state->setRedirect('demo.multistep_three');
+    $form_state->setRedirect('multistep_three');
   }
 }
