@@ -1,0 +1,14 @@
+{
+  "name": "drupal/multistep",
+  "type": "drupal-module",
+  "description": "Multistep form module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/multistep",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/multistep",
+    "source": "http://cgit.drupalcode.org/multistep"
+  },
+  "require": { }
+}
